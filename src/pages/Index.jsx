@@ -15,13 +15,13 @@ const Index = () => {
         <IconButton icon={<FaBars />} variant="outline" onClick={onOpen} display={{ base: "inline-flex", md: "none" }} />
         <Stack as="ul" direction="row" display={{ base: "none", md: "flex" }} spacing={4}>
           <Box as="li">
-            <Link href="#section1">Section 1</Link>
+            <Link>Section 1</Link>
           </Box>
           <Box as="li">
-            <Link href="#section2">Section 2</Link>
+            <Link>Section 2</Link>
           </Box>
           <Box as="li">
-            <Link href="#section3">Section 3</Link>
+            <Link>Section 3</Link>
           </Box>
         </Stack>
       </Flex>
